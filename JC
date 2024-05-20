@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-05-20 10:57:02
+# 创建时间：2024-05-20 10:59:37
 # 使用模版：V2RaySE 默认模版
 # 节点数量：44
 ####################################
@@ -85,7 +85,6 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国-专线ss2_1","type":"vmess","server":"kr500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"香港1","type":"ss","server":"kk.huaweiddns.com","port":39444,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"香港2","type":"ss","server":"kk.huaweiddns.com","port":39444,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"香港-中转隧道1","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":27506,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
@@ -115,11 +114,12 @@ proxies:
   - {"name":"美国2","type":"ss","server":"kk.huaweiddns.com","port":39745,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"美国-中转隧道","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15261,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"美国-专线ss1","type":"ss","server":"ny.whatfuck.top","port":46281,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国-专线ss2_2","type":"ss","server":"ny.whatfuck.top","port":48137,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-专线ss2","type":"ss","server":"ny.whatfuck.top","port":48137,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"美国-流媒体专线","type":"vmess","server":"us2vm.fuckvps.top","port":2096,"cipher":"auto","uuid":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/us2vm","headers":{"host":"us2vm.fuckvps.top"}}}
   - {"name":"韩国1","type":"ss","server":"kk.huaweiddns.com","port":39945,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"韩国2","type":"ss","server":"kk.huaweiddns.com","port":39945,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
-  - {"name":"韩国-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":40396,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"韩国-中转隧道1","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":40396,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"韩国-中转隧道2","type":"vmess","server":"kr500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"澳大利亚1","type":"ss","server":"cc.huaweiddns.com","port":30445,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"澳大利亚2","type":"ss","server":"cc.huaweiddns.com","port":30445,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"英国1","type":"ss","server":"kk.huaweiddns.com","port":30455,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
@@ -135,7 +135,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -165,10 +164,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2
@@ -185,7 +185,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -215,10 +214,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2
@@ -235,7 +235,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -265,10 +264,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2
@@ -284,7 +284,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -314,10 +313,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2
@@ -333,7 +333,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -363,10 +362,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2
@@ -382,7 +382,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -412,10 +411,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2
@@ -448,7 +448,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-专线ss2_1
       - 香港1
       - 香港2
       - 香港-中转隧道1
@@ -478,10 +477,11 @@ proxy-groups:
       - 美国2
       - 美国-中转隧道
       - 美国-专线ss1
-      - 美国-专线ss2_2
+      - 美国-专线ss2
       - 美国-流媒体专线
       - 韩国1
       - 韩国2
+      - 韩国-中转隧道1
       - 韩国-中转隧道2
       - 澳大利亚1
       - 澳大利亚2

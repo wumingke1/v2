@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-05-20 11:03:22
+# 创建时间：2024-05-20 11:25:36
 # 使用模版：V2RaySE 默认模版
-# 节点数量：44
+# 节点数量：45
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -89,15 +89,16 @@ proxies:
   - {"name":"香港2","type":"ss","server":"kk.huaweiddns.com","port":39444,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"香港-中转隧道1","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":27506,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"香港-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":21949,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"香港负载均衡","type":"ss","server":"sg1.whatfuck.top","port":11486,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-负载均衡","type":"ss","server":"sg1.whatfuck.top","port":11486,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"香港-专线ss1","type":"ss","server":"ny.whatfuck.top","port":46048,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"香港-专线ss2","type":"ss","server":"ny.whatfuck.top","port":46048,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"香港-专线ss3","type":"ss","server":"ny.whatfuck.top","port":36090,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"香港-流媒体专线","type":"vmess","server":"hk2vm.fuckvps.top","port":2096,"cipher":"auto","uuid":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hk2vm","headers":{"host":"hk2vm.fuckvps.top"}}}
   - {"name":"台湾1","type":"ss","server":"kk.huaweiddns.com","port":39845,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
   - {"name":"台湾2","type":"ss","server":"cc.huaweiddns.com","port":39845,"password":"f1534b0b-810a-4764-aa6f-b6695e1caabc","cipher":"aes-256-gcm"}
-  - {"name":"台湾-中转隧道1","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"台湾-中转隧道2","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15757,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"台湾-中转隧道1","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"台湾-中转隧道2","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"台湾-中转隧道3","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15757,"cipher":"auto","uuid":"ca99dffd-cfde-47cd-a6fd-6afaaf7eb6fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"台湾-专线ss1","type":"ss","server":"ny.whatfuck.top","port":17316,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"台湾-专线ss2","type":"ss","server":"ny.whatfuck.top","port":49838,"password":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"台湾-流媒体专线1","type":"vmess","server":"tw1vm.fuckvps.top","port":2096,"cipher":"auto","uuid":"2e1c95a9-67ca-46d0-9c5f-fc4f210bdfa7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw1vm","headers":{"host":"tw1vm.fuckvps.top"}}}
@@ -139,7 +140,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -148,6 +149,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
@@ -189,7 +191,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -198,6 +200,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
@@ -239,7 +242,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -248,6 +251,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
@@ -288,7 +292,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -297,6 +301,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
@@ -337,7 +342,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -346,6 +351,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
@@ -386,7 +392,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -395,6 +401,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
@@ -452,7 +459,7 @@ proxy-groups:
       - 香港2
       - 香港-中转隧道1
       - 香港-中转隧道2
-      - 香港负载均衡
+      - 香港-负载均衡
       - 香港-专线ss1
       - 香港-专线ss2
       - 香港-专线ss3
@@ -461,6 +468,7 @@ proxy-groups:
       - 台湾2
       - 台湾-中转隧道1
       - 台湾-中转隧道2
+      - 台湾-中转隧道3
       - 台湾-专线ss1
       - 台湾-专线ss2
       - 台湾-流媒体专线1
